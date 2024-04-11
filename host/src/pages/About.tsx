@@ -10,7 +10,7 @@ function About() {
       <NavBarComponent />
       <section className="about">
         <img src={profile} />
-        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        <p> Hola soy goku</p>
       </section>
     </div>
   )

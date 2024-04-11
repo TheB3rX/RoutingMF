@@ -4,16 +4,18 @@ import './CharacterCard.css'
 interface CharacterType {
     name: string
     image: string
-    gender: string
+    description: string
 }
 
 function CharacterCard(props: CharacterType) {
     return (
-        <div className="character-card">
-            <img src={props.image} alt="Character" />
-            <h3>{props.name}</h3>
-            <p>{props.gender}</p>
-        </div>
+    <div className="general-array">
+      <div className="character-card">
+          <img src={props.image} alt="Character" />
+          <h3>{props.name}</h3>
+          <p>{props.description}</p>
+      </div>
+    </div>
     )
 }
 

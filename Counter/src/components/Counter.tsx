@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
-// import styles from './Counter.module.css'
+import "./Counter.css"
 function Counter() {
     const [count, setCount] = useState(0)
     return (
-        <div >
+        <div className='counter'>
             <h3>Count: {count}</h3>
             <section >
                 <button onClick={() => setCount(count + 1)}>Increment</button>

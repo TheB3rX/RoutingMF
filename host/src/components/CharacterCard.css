@@ -1,10 +1,18 @@
+.general-array {
+  padding-top: 30px;
+}
 .character-card {
-  padding: 20px;
+  background-color: #D3D3D3;
+  padding: 40px;
+  width: 200px;
+  height: 400px;
   display: flex;
+  vertical-align: middle;
   flex-direction: column;
   align-items: center;
   width: 400px;
-  border: 1px solid black;
+  border-radius: 30px ;
+  box-shadow: black;
 }
 
 .character-card img {
