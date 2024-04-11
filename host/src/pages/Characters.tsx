@@ -27,7 +27,7 @@ function Characters() {
             {loaded ? <div className='charactersContainer'>
                 {characters && characters.data && characters.data.map((character: any) => (
                     <Nav.Link as={NavLink} to={`/${character._id}`} >
-                        <CharacterCard key={character.id} description={character.description} image={character.image} name={character.name} />
+                        <CharacterCard key={character.id} gender={character.gender} image={character.image} name={character.name} />
                     </Nav.Link>
                 ))}
             </div> : <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '80vh' }}><GridLoader size={40} color="#36d7b7" /></div>}
